@@ -2,16 +2,15 @@
 layout: about
 title: about
 permalink: /
-subtitle: AI Researcher in NaverZ
+email: cjse3178 at gmail dot com
+subtitle: AI Researcher in NaverZ # :kr:
 
 profile:
   align: right
   image: prof_pic.jpg
   image_cicular: false # crops the image to make it circular
   address: >
-    <p>555 your office nasdfsdfumber</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p> email at: <b> cjse3178 at gmail dot com  </b> </p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
