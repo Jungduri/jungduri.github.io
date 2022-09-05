@@ -2,83 +2,21 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Jungseok Cho(조정석)
     - name: Languages
-      value: English, German
-
-- title: Education
-  type: time_table
-  contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
-
-- title: Experience
-  type: time_table
-  contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
-
+      value: Korean, English
+    - name: Email
+      value: cjse3178@gmail.com
+    # - name: Date of Birth
+    #   value: 30th August 1993
+# Area: Machine vision, Image processing, Optics
+# Advisor: Kyung-soo Kim
+# Cumulative GPA: 3.9/4.3
+# Thesis: Vision-based Real-time Welding Line Detection Algorithms for Automatic Welding Robot [3]
+# Projects:
+# · Development welding line tracking vision-based algorithm of LNG cargo welding robot (with HHI)
+# · Development vehicle body velocity sensor using Modulated Motion Blur
+# · Development automatic parking algorithm using single CCTV in scaled down environmen
 - title: Academic Interests
   type: nested_list
   contents:
@@ -90,6 +28,112 @@
       items:
         - Description 1.
         - Description 2.
+- title: Education
+  type: time_table
+  contents:
+    - title: M.S. in The Cho Chun Shik Graduate School of Green Transportation
+      institution: Korea Advanced Institute of Science and Technology(KAIST), Republic of Korea
+      year: FEB 2018
+      description:
+        # - area: Computer vision, Image processing, Optics
+        - <b>Thesis</b> | Vision-based Real-time Welding Line Detection Algorithms for Automatic Welding Robot [3]
+        - <b>Advisor</b> | Kyung-soo Kim
+
+    - title: B.S. in Electronic Engineering
+      institution: Inha University, Republic of Korea
+      year: AUG 2015
+      description:
+        - First honor of fall graduation in Department of Electronic Engineering
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: NAVERZ, AI Researcher
+      institution: NAVERZ is one of the most popular company in the realms of metaverse service since 2019, having 300 millions of users, who are distributed mainly south-east Asia and North America. By acquiring the AI team of PlaceA, teamed up the motion AI team, who has primary role has create as well as research and program the interface between the real world and metaverse service of Zepeto. Solved multiple problems by adapting multi-view camera to enhance a joint estimation result and to cover all invisible and occlusive area.
+      year: Feb 2022 - 
+      description:
+        - title: Responsibilities included the following
+          contents:
+          - TBD
+        - title: Results
+          contents:
+          - TBD
+
+
+    - title: PLACEA, AI Researcher
+      institution: PLACE A which was a AI-tech startup in Korea mainly developed image-based scaleable AI solutions that used in services related human motions. Invited to join as a Researcher, tasked with studying how to estimate human pose, including 2D, 3D joint coordinates and mesh level using deep learning. Having provided accurate, real-time and intuitive joint information to the users, with the team’s model playing a pivotal role as a significant feature in one of the popular metaverse services. Moreover, participated in the research team to the interpretive learning model for the authenticity verification whether a certain product is authentic or not.
+      year: Mar 2021 - Feb 2022
+      description:
+        - title: Responsibilities included the following
+
+          contents:
+            - Re-designing and optimizing the real-time monocular 3D joint estimation model to boost model inference speed and accuracy. 
+            - Classfiying authentication for examination of used goods in the online platform using uncertainty based AI model
+        - title: Results
+          contents:
+            - Contributed to achieve 160FPS for 3D pose estimation inference speed, on C++ binary(GTX 3060)
+            - Increased to 30% pose accuracy(MPJPE) in dynamic pose situation(e.g. yoga, exercise)
+            - Established anomaly detection model with having an accuracy of 99%
+
+    - title: TMAX, Researcher
+      institution: Tmax is the domestic hidden champion who develop their own products and lead the field of system software sectors such as database and middle ware, awarded by providing its product to Hyundai and multiple domestic bank companies. Joined as a Researcher in the 2D Graphics team developing the C++ based 2D graphic library for the logic of drawing and rendering objects and fonts as well as the conventional algorithms of image processing on TmaxOS and relevant. Analyzed and evaluated deep learning-based computing vision algorithms for various software products.
+      year: Aug 2018 - Mar 2021
+      description:
+        - title: Responsibilities included the following
+          contents:
+            - Improving graphic rendering algorithms within TmaxOS, a Linux-based operating system, for a user experience equivalent to Windows graphics.
+            - Designing a virtual background based on deep learning for HyperMeeting, a web-based video-conferencing service.
+        - title: Results
+          contents:
+            - Built a prototype for deep-learning-based virtual background model for HyperMeeting 
+            - Contributed to release TmaxOffice in Windows to enhance font engine
+            - Contributed to launch HyperMeeting service's front-end development
+
+    - title: Hyundai Heavy Industry, Researcher
+      institution: Hyundai Heavy Industry is the global leading shipbuilding company. Recruited as a Researcher to develop various automation robots to enhance plant productivity. Mainly contributed to develop an LNG tank welding robot that was part of the most important and sophisticated process throughout the LNG cargo shipbuilding process, Acquiring the certification from the shipowners and the classification society, necessary for the deployment of the robot into the factories.
+      year: Aug 2018 - July 2019
+      description:
+        - title: Responsibilities included the following
+          contents:
+            - Developing a vision-based algorithm for tracking the welding line in the process.
+            - Developing an automatic welding robot for the gas tanks of LNG carriers fitted with an automatic welding line tracking robot.
+        - title: Results
+          contents:
+            - Revised and reprogrammed whole electronics architecture on welding robots including replacement a type of main processor
+            - Acquired the certification from the shipowners and the classification society, necessary for the deployment of the robot into the factories
+
+    - title: Korea Advanced Institute of Science and Technology(KAIST), Graduate Research Assistant
+      year: Mar 2016 - Feb 2018
+      description:
+        - title: Conducted projects
+          contents:
+            - Development welding line tracking vision-based algorithm of LNG cargo welding robot sponsored by Hyundai Heavy Industry 
+            - Development vehicle body velocity sensor using Modulated Motion Blur 
+            - Development automatic parking algorithm using single CCTV in scaled down environment
+
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - year: Spring 2016 - Fall 2017
+      items: 
+        - National Student Scholarship for Master's Program at KAIST 
+    - year: Fall 2015 
+      items: 
+        - Hanjin Group Scholarship
+    - year: Fall 2014 
+      items: 
+        - Second place in Campus Start-ups Competitions
+    - year: Fall 2012 & Spring 2013
+      items: 
+        - Academic Excellence Scholarship for top 3% of the department
+
+- title: Volunteer
+  type: time_table
+  contents:
+    - year: Spring 2014 - Fall 2015
+      items: 
+        - Samsung Dream Class
+        - Supporting low-income students in the middle school to provide math lectures
 
 - title: Other Interests
   type: list

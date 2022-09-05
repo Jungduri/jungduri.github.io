@@ -12,13 +12,13 @@ profile:
   address: >
     <p> email at: <b> cjse3178 at gmail dot com  </b> </p>
 
-news: true  # includes a list of news items
+news: false  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: false  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a Research at NAVERZ, where one of the biggest and most promising companies in the world with regards to metaverse services. I am highly interested in how real-world visual information can be delivered (e.g. video, image, and AR/VR), interpreted(e.g. joints estimation and segmentation), and utilized(e.g. motion generation).
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I studied computer vision in the Cho Chun Shik Graduate School of Green Transportation from KAIST in 2018(advisor Prof. Kyung-Soo Kim), and received my Bachelor of Science in electronics engineering from Inha University in 2015.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+In my current position at NAVERZ, I am able to research the interface and connection between the real world and the virtual world. My team and I have been utilizing visual information offered by users, including learning-based motion capture for portable cameras, light estimation, etc.
