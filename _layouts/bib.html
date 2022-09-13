@@ -3,7 +3,7 @@
 <!-- _layouts/bib.html -->
       <div class="row">
         <div class="col-sm-3 abbr">
-        <img class="pub_img" src="/assets/img/1.jpg">
+        <img class="publication_img" src="{{entry.image | prepend: '/assets/img/'}}"> 
 
         {%- if entry.abbr -%}
           {%- if site.data.venues[entry.abbr] -%} 
