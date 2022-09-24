@@ -109,6 +109,21 @@ blockquote {
   color: var(--global-theme-color);
 }
 
+// email
+.post-header {
+  .desc {
+    margin-bottom: 0;
+  }
+
+  .email {
+    font-size: medium;
+
+    b {
+      color: #ee5555;
+    }
+  }
+}
+
 // Profile
 
 .profile {

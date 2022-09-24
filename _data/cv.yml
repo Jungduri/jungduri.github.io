@@ -7,6 +7,8 @@
       value: Korean, English
     - name: Email
       value: cjse3178@gmail.com
+    - name: Hobbies
+      value: ski, tennis, basketball, free diving, writing
     # - name: Date of Birth
     #   value: 30th August 1993
 # Area: Machine vision, Image processing, Optics
@@ -20,14 +22,14 @@
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Computer vision applications
       items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Multi-view camera based human joints estimation
+        - Action recognition
+    - title: Machine learning
       items:
-        - Description 1.
-        - Description 2.
+        - Imbalance and long-tail problem
+        - Interpretable learning, uncertainty
 - title: Education
   type: time_table
   contents:
@@ -49,19 +51,17 @@
   type: time_table
   contents:
     - title: NAVERZ, AI Researcher
-      institution: NAVERZ is one of the most popular company in the realms of metaverse service since 2019, having 300 millions of users, who are distributed mainly south-east Asia and North America. By acquiring the AI team of PlaceA, teamed up the motion AI team, who has primary role has create as well as research and program the interface between the real world and metaverse service of Zepeto. Solved multiple problems by adapting multi-view camera to enhance a joint estimation result and to cover all invisible and occlusive area.
+      institution: NAVERZ is one of the most popular company in the realms of metaverse service since 2019, having 300 millions users, who are distributed mainly in south-east Asia and North America. By acquiring the AI team of PlaceA, NAVERZ teamed up the motion AI team, whose primary role has creating and researching the interface between the real world and metaverse service of Zepeto—I mainly charge for addressing multiple problems by adapting a multi-view camera to enhance a joint estimation result and to cover all invisible and occlusive area.
       year: Feb 2022 - 
       description:
         - title: Responsibilities included the following
           contents:
-          - TBD
-        - title: Results
-          contents:
-          - TBD
-
+          - Designing and interpreting 2D joints model to enhance model quality(inference speed and accuracy)
+          - Developing 3D human joints estimation model to compensate for dead-zone via multi-view cameras
+          - Establishing and evaluating synthetic data to accelerate joints estimation results in dynamic movement 
 
     - title: PLACEA, AI Researcher
-      institution: PLACE A which was a AI-tech startup in Korea mainly developed image-based scaleable AI solutions that used in services related human motions. Invited to join as a Researcher, tasked with studying how to estimate human pose, including 2D, 3D joint coordinates and mesh level using deep learning. Having provided accurate, real-time and intuitive joint information to the users, with the team’s model playing a pivotal role as a significant feature in one of the popular metaverse services. Moreover, participated in the research team to the interpretive learning model for the authenticity verification whether a certain product is authentic or not.
+      institution: PLACE A, an AI-tech startup in Korea, mainly developed image-based scaleable AI solutions that are used in services related to human motions. I joined as a Researcher, tasked with studying how to estimate human pose, including 2D, 3D joint coordinates, and mesh level using deep learning. PLACE A provided accurate, real-time, and intuitive joint information to the users, with the team’s model playing a pivotal role as a significant feature in one of the popular metaverse services. Moreover, I also participated in the research team on the interpretive learning model for authenticity verification of whether a specific product is authentic or not.
       year: Mar 2021 - Feb 2022
       description:
         - title: Responsibilities included the following
@@ -76,8 +76,8 @@
             - Established anomaly detection model with having an accuracy of 99%
 
     - title: TMAX, Researcher
-      institution: Tmax is the domestic hidden champion who develop their own products and lead the field of system software sectors such as database and middle ware, awarded by providing its product to Hyundai and multiple domestic bank companies. Joined as a Researcher in the 2D Graphics team developing the C++ based 2D graphic library for the logic of drawing and rendering objects and fonts as well as the conventional algorithms of image processing on TmaxOS and relevant. Analyzed and evaluated deep learning-based computing vision algorithms for various software products.
-      year: Aug 2018 - Mar 2021
+      institution: Tmax is the domestic hidden champion who leads the field of system software sectors such as database and middleware, awarded by providing its product to Hyundai and multiple domestic bank companies. I joined as a Researcher in the 2D Graphics team, developing the C++-based 2D graphic library for the logic of drawing and rendering objects and fonts as well as the conventional algorithms of image processing on TmaxOS and relevant. I also conducted deep learning-based computing vision algorithms for various software products.
+      year: Aug 2019 - Mar 2021
       description:
         - title: Responsibilities included the following
           contents:
@@ -90,7 +90,7 @@
             - Contributed to launch HyperMeeting service's front-end development
 
     - title: Hyundai Heavy Industry, Researcher
-      institution: Hyundai Heavy Industry is the global leading shipbuilding company. Recruited as a Researcher to develop various automation robots to enhance plant productivity. Mainly contributed to develop an LNG tank welding robot that was part of the most important and sophisticated process throughout the LNG cargo shipbuilding process, Acquiring the certification from the shipowners and the classification society, necessary for the deployment of the robot into the factories.
+      institution: Hyundai Heavy Industry is the global leading shipbuilding company. I was recruited as a Researcher to develop various automation robots to enhance plant productivity. Mainly I contributed to developing an LNG tank welding robot that was part of the most essential and sophisticated process throughout the LNG cargo shipbuilding process. HHI enabled to acquire the certification from shipowners and classification society, which are necessary for the deployment of the robot in the factories.
       year: Aug 2018 - July 2019
       description:
         - title: Responsibilities included the following
@@ -103,7 +103,7 @@
             - Acquired the certification from the shipowners and the classification society, necessary for the deployment of the robot into the factories
 
     - title: Korea Advanced Institute of Science and Technology(KAIST), Graduate Research Assistant
-      year: Mar 2016 - Feb 2018
+      year: Mar 2016 - July 2018
       description:
         - title: Conducted projects
           contents:
@@ -135,7 +135,9 @@
         - Samsung Dream Class
         - Supporting low-income students in the middle school to provide math lectures
 
-- title: Other Interests
+- title: Technial strengths
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Platform:</u> Linux, MCU Programming
+    - <u>Programming and etc.:</u> C/C++, Python, Typesciprt, Matlab, PyTorch, Tensorflow, OpenCV, ROS, Git, Docker, etc.
+
