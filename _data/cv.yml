@@ -24,8 +24,8 @@
   contents:
     - title: Computer vision applications
       items: 
-        - Multi-view camera based human joints estimation
-        - Action recognition
+        - Multi-view camera-based human joints estimation
+        - Action recognition, etc.
     - title: Machine learning
       items:
         - Imbalance and long-tail problem
