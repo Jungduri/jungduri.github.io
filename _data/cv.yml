@@ -29,7 +29,7 @@
     - title: Machine learning
       items:
         - Imbalance and long-tail problem
-        - Interpretable learning, uncertainty
+        - Interpretable learning, uncertainty, and self-supervised learning
 - title: Education
   type: time_table
   contents:
