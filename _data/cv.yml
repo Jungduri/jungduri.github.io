@@ -67,8 +67,8 @@
         - title: Responsibilities included the following
 
           contents:
-            - Re-designing and optimizing the real-time monocular 3D joint estimation model to boost model inference speed and accuracy. 
-            - Classfiying authentication for examination of used goods in the online platform using uncertainty based AI model
+            - Re-designed and optimized the real-time monocular 3D joint estimation model to boost model inference speed and accuracy. 
+            - Classified authentication for examination of used goods in the online platform using uncertainty-based AI model
         - title: Results
           contents:
             - Contributed to achieve 160FPS for 3D pose estimation inference speed, on C++ binary(GTX 3060)
@@ -81,8 +81,8 @@
       description:
         - title: Responsibilities included the following
           contents:
-            - Improving graphic rendering algorithms within TmaxOS, a Linux-based operating system, for a user experience equivalent to Windows graphics.
-            - Designing a virtual background based on deep learning for HyperMeeting, a web-based video-conferencing service.
+            - Improved graphic rendering algorithms within TmaxOS, a Linux-based operating system, for a user experience equivalent to Windows graphics.
+            - Designed a virtual background based on deep learning for HyperMeeting, a web-based video-conferencing service
         - title: Results
           contents:
             - Built a prototype for deep-learning-based virtual background model for HyperMeeting 
@@ -95,8 +95,8 @@
       description:
         - title: Responsibilities included the following
           contents:
-            - Developing a vision-based algorithm for tracking the welding line in the process.
-            - Developing an automatic welding robot for the gas tanks of LNG carriers fitted with an automatic welding line tracking robot.
+            - Developed a vision-based algorithm for tracking the welding line in the process.
+            - Developed an automatic welding robot for the gas tanks of LNG carriers fitted with an automatic welding line tracking robot.
         - title: Results
           contents:
             - Revised and reprogrammed whole electronics architecture on welding robots including replacement a type of main processor
